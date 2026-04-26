@@ -1,23 +1,36 @@
-# NYCU Data Mining(Spring 2026) Assignment 1
+# NYCU Data Mining (Spring 2026) Assignment 2
 
 ### Prerequisites
-Ensure the `seaborn` package is installed before running the tests.
+Ensure the following Python packages are installed before execution:
+* `numpy`
+* `pandas`
+* `matplotlib`
+* `scikit-learn`
+* `mlxtend` (for association rule mining)
+* `scipy`
+
+---
 
 ## File Structure
 
 ```text
 .
-├── Linear_Regression.ipynb                  #1. Linear Regression
-├── Logistic_Regression.ipynb                #2. Logistic Regression
-├── Real_World_Classification.ipynb          #3. Real World Classification
-├── README.md                                
-├── data/                                    
-└── model/                                   
-	├── activations.py                       
-	├── gradients.py                         #1. Linear Regression, 2. Logistic Regression
-	├── linear_model.py                      #3. Real World Classification
-	├── metrics.py                           #1. Linear Regression, 2. Logistic Regression
-	└── utils.py                             
+├── 1a.py               # Task 1: Logistic Regression hyperparameter tuning (5-Fold CV)
+├── 1b.py               # Task 1: Optimal Logistic Regression model evaluation
+├── 2a.py               # Task 2: SVM basic classification and evaluation
+├── 2b.py               # Task 2: Performance analysis and visualization of SVM regularization parameter C
+├── 3.py                # Task 3: Frequent itemset mining and association rules via FP-growth
+├── 4.py                # Task 4: PCA dimensionality reduction and K-Means clustering analysis
+├── 5.py                # Task 5: Enhanced K-Means clustering with CAR-GFW
+├── README.md
+├── data/               # Dataset directory
+│   ├── NYCU_Iris.csv            
+│   └── mobile_price.csv         
+├── fig/                # Generated visualizations and plots
+└── model/              # Provided model implementations and modules
+    ├── activations.py           
+    ├── gradients.py             
+    ├── linear_model.py          
+    ├── metrics.py               
+    └── utils.py                 
 ```
-
-
